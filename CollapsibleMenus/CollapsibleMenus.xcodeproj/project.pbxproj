@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800140E02035D10F00FE3BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800140DF2035D10F00FE3BA8 /* AppDelegate.swift */; };
+		800140E22035D10F00FE3BA8 /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800140E12035D10F00FE3BA8 /* CollapsibleTableViewController.swift */; };
+		800140E72035D10F00FE3BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800140E62035D10F00FE3BA8 /* Assets.xcassets */; };
+		800140EA2035D10F00FE3BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800140E82035D10F00FE3BA8 /* LaunchScreen.storyboard */; };
+		800140F22035D1D700FE3BA8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800140F12035D1D700FE3BA8 /* Data.swift */; };
+		800969342039891F009F53E1 /* CollapsibeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800969332039891F009F53E1 /* CollapsibeTableViewHeader.swift */; };
+		8009693620399799009F53E1 /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8009693520399799009F53E1 /* CollapsibleTableViewCell.swift */; };
+		800969382039A009009F53E1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800969372039A009009F53E1 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		800140DC2035D10F00FE3BA8 /* CollapsibleMenus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleMenus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800140DF2035D10F00FE3BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800140E12035D10F00FE3BA8 /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
+		800140E62035D10F00FE3BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800140E92035D10F00FE3BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800140EB2035D10F00FE3BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800140F12035D1D700FE3BA8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		800969332039891F009F53E1 /* CollapsibeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibeTableViewHeader.swift; sourceTree = "<group>"; };
+		8009693520399799009F53E1 /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		800969372039A009009F53E1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800140D92035D10F00FE3BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800140D32035D10F00FE3BA8 = {
+			isa = PBXGroup;
+			children = (
+				800140DE2035D10F00FE3BA8 /* CollapsibleMenus */,
+				800140DD2035D10F00FE3BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800140DD2035D10F00FE3BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800140DC2035D10F00FE3BA8 /* CollapsibleMenus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800140DE2035D10F00FE3BA8 /* CollapsibleMenus */ = {
+			isa = PBXGroup;
+			children = (
+				800140DF2035D10F00FE3BA8 /* AppDelegate.swift */,
+				800140E12035D10F00FE3BA8 /* CollapsibleTableViewController.swift */,
+				800969332039891F009F53E1 /* CollapsibeTableViewHeader.swift */,
+				800969372039A009009F53E1 /* Extensions.swift */,
+				800140F12035D1D700FE3BA8 /* Data.swift */,
+				8009693520399799009F53E1 /* CollapsibleTableViewCell.swift */,
+				800140E62035D10F00FE3BA8 /* Assets.xcassets */,
+				800140E82035D10F00FE3BA8 /* LaunchScreen.storyboard */,
+				800140EB2035D10F00FE3BA8 /* Info.plist */,
+			);
+			path = CollapsibleMenus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800140DB2035D10F00FE3BA8 /* CollapsibleMenus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800140EE2035D10F00FE3BA8 /* Build configuration list for PBXNativeTarget "CollapsibleMenus" */;
+			buildPhases = (
+				800140D82035D10F00FE3BA8 /* Sources */,
+				800140D92035D10F00FE3BA8 /* Frameworks */,
+				800140DA2035D10F00FE3BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleMenus;
+			productName = CollapsibleMenus;
+			productReference = 800140DC2035D10F00FE3BA8 /* CollapsibleMenus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800140D42035D10F00FE3BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Magy Elias";
+				TargetAttributes = {
+					800140DB2035D10F00FE3BA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 800140D72035D10F00FE3BA8 /* Build configuration list for PBXProject "CollapsibleMenus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800140D32035D10F00FE3BA8;
+			productRefGroup = 800140DD2035D10F00FE3BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800140DB2035D10F00FE3BA8 /* CollapsibleMenus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800140DA2035D10F00FE3BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800140EA2035D10F00FE3BA8 /* LaunchScreen.storyboard in Resources */,
+				800140E72035D10F00FE3BA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800140D82035D10F00FE3BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800969342039891F009F53E1 /* CollapsibeTableViewHeader.swift in Sources */,
+				800969382039A009009F53E1 /* Extensions.swift in Sources */,
+				800140E22035D10F00FE3BA8 /* CollapsibleTableViewController.swift in Sources */,
+				8009693620399799009F53E1 /* CollapsibleTableViewCell.swift in Sources */,
+				800140F22035D1D700FE3BA8 /* Data.swift in Sources */,
+				800140E02035D10F00FE3BA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		800140E82035D10F00FE3BA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800140E92035D10F00FE3BA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800140EC2035D10F00FE3BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800140ED2035D10F00FE3BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800140EF2035D10F00FE3BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYC936BL89;
+				INFOPLIST_FILE = CollapsibleMenus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Cruz-Guidi.CollapsibleMenus.CollapsibleMenus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800140F02035D10F00FE3BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYC936BL89;
+				INFOPLIST_FILE = CollapsibleMenus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Cruz-Guidi.CollapsibleMenus.CollapsibleMenus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800140D72035D10F00FE3BA8 /* Build configuration list for PBXProject "CollapsibleMenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800140EC2035D10F00FE3BA8 /* Debug */,
+				800140ED2035D10F00FE3BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800140EE2035D10F00FE3BA8 /* Build configuration list for PBXNativeTarget "CollapsibleMenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800140EF2035D10F00FE3BA8 /* Debug */,
+				800140F02035D10F00FE3BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800140D42035D10F00FE3BA8 /* Project object */;
+}
